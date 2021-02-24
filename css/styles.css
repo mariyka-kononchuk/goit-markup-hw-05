@@ -568,10 +568,15 @@ body {
 
 .button-close {
   position: absolute;
+  display: block;
   top: 8px;
   right: 8px;
   padding: 0;
+  width: 30px;
+  height: 30px;
+  background-image: url('../images/close.svg');
   border: none;
+  border-radius: 50%;
   line-height: 0;
 }
 
