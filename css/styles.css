@@ -105,7 +105,7 @@ body {
 }
 
 /*тень при фокусе*/
-.main-nav a:focus {
+.logo-header:focus {
   outline: none;
   box-shadow: 0 0 0 2px var(--accent-color);
   border-radius: 4px;
@@ -150,13 +150,7 @@ body {
 .site-nav a:hover,
 .site-nav a:focus {
   color: var(--accent-color);
-}
-
-/*тень при фокусе*/
-.site-nav a:focus {
   outline: none;
-  box-shadow: 0 0 0 2px var(--accent-color);
-  border-radius: 4px;
 }
 
 /*подсветка активной страницы*/
@@ -212,13 +206,7 @@ body {
 .contacts-nav a:hover,
 .contacts-nav a:focus {
   color: var(--accent-color);
-}
-
-/*тень при фокусе*/
-.contacts-nav a:focus {
   outline: none;
-  box-shadow: 0 0 0 2px var(--accent-color);
-  border-radius: 4px;
 }
 
 .nav-icon {
