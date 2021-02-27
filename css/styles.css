@@ -147,10 +147,18 @@ body {
 }
 
 /*изменение цвета элемента меню при наведении*/
-.site-nav a:hover,
-.site-nav a:focus {
+
+.site-nav a:hover {
   color: var(--accent-color);
   outline: none;
+}
+
+/*тень при фокусе*/
+.site-nav a:focus {
+  outline: none;
+  color: var(--accent-color);
+  box-shadow: 0 0 0 2px var(--accent-color);
+  border-radius: 4px;
 }
 
 /*подсветка активной страницы*/
@@ -453,7 +461,7 @@ body {
   justify-content: space-between;
 
   margin: 0;
-  padding: 0px 32px;
+  padding: 0;
 
   color: var(--icon-color);
 }
@@ -499,6 +507,8 @@ body {
 .team-content {
   padding-top: var(--card-set-gap);
   padding-bottom: var(--card-set-gap);
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 /*---ПОСТОЯННЫЕ КЛИЕНТЫ---*/
@@ -729,6 +739,9 @@ body {
 .flex-footer {
   display: flex;
   align-items: baseline;
+
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /*позиционирование контента адреса*/
@@ -736,9 +749,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 /*позиционирование адреса*/
